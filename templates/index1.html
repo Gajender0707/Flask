@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Score</title>
+</head>
+<body>
+    <h1>
+        Result Page
+    </h1>
+    <h2>
+        Input My marks
+    </h2>
+    <form action="/submit" method="post">
+
+        <div>
+        <label for="English">English:</label>
+        
+            <input type="text" name="English_Marks" id="English">
+        </div>  
+        <br>
+        <div>
+            <label for="Math">Maths:</label>
+                <input type="text" name="Maths_Marks" id="Math">
+            </div>  
+        <br>
+        <div>
+            <label for="Physics">Physics:</label>
+            <input type="text" name="Physics_Marks" id="Physics">
+        </div>
+        <br>
+        <div>
+        <label for="Chemistry">Chemistry:</label>
+        <input type="text" name="Chemistry_Marks" id="Chemistry">
+        </div>
+        <br>
+        <label for="Submit">Submit Your Marks</label>
+        <input type="submit",value="Submit",id="Submit">
+        <br>
+        <p>
+            If you press the Submit button it will go to the /submit route function in the main file
+        </p>
+    </form>
+
+</body>
+</html>
